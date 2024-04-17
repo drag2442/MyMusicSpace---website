@@ -11,27 +11,42 @@ html, body{
 header{
     background-color: #E9F1FA;
     color:#0f1b2d;
-    padding-top: 0.5vw;
+    padding-top: 0.6vw;
     height: 5vw;
     width: 100%;
     position: fixed;
-    border-bottom: 0.1vw solid #0f1b2d;
+    border-bottom: 0.3vw solid white;
+    border-bottom-style:dashed;
 }
 #headphones{
     position: fixed;
-    margin-left: 95%;
-    margin-top: 0.6%;
+    margin-left: 1.5%;
+    margin-top: 0.59%;
     width: 3vw;
     height: 3vw;
+    border-radius: 0.5vw;
 }
 nav{
-    position: absolute;
-    margin-left: 90%;
+    float:right;
+    margin-right:1vw;
+    margin-top:0.2vw;
 }
-#text{
-    margin-top: 6vw;
+li{
+    display: grid;
+    border: 0.2vw solid white;
+    border-radius:2vw ;
+    background-color: white;
+    padding:0.5vw;
+    float:left;
+    margin-right:1vw;
+    font-size: large;
+    color:#0f1b2d;
+}
+#InnerBody{
+    margin-top: 7vw;
     margin-left: 1vw;
-    background-color: grey;
+    margin-right: 1vw;
     height:auto;
-    width: 60%;
+    width: auto;
+    color: #0f1b2d;
 }
