@@ -6,6 +6,11 @@ html, body{
     overflow-x: hidden;
     scrollbar-gutter: auto;
 }
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 header{
     color:#E9F1FA;
     padding-top: 0.6%;
